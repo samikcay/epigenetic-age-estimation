@@ -1,0 +1,66 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# Python environments and packaging output
+.venv/
+venv/
+env/
+ENV/
+__pypackages__/
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Dataset downloads, sample metadata, and processed matrices
+/data/*
+!/data/README.md
+*.idat
+*.idat.gz
+
+# Trained models and generated experiment artifacts
+/models/
+/outputs/
+/results/
+/reports/generated/
+*.joblib
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.onnx
+*.pt
+*.pth
+*.log
+logs/
+
+# Local secrets and configuration
+.env
+.env.*
+!.env.example
+credentials.json
+*.pem
+*.key
+
+# Local editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
